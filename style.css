@@ -1,0 +1,178 @@
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(130deg, #01ff6b,#02b0f5)  ;
+    flex-direction: column ;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    position: relative; 
+  }
+
+
+
+  header {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+  }
+
+
+  .container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 55px;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: rgb(0, 0, 0);
+
+  }
+  .container h1 {
+    position: absolute;
+    top: 4px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+  }
+  .container .progress_container {
+    position: absolute;
+    bottom: 14px;
+    width: 100%;
+    max-width: 150px;
+    height: 5px;
+    background-color: #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+
+
+  }
+  .container #progress {
+    background-color: aqua;
+    width: 0;
+    height: 100%;
+  }
+  .container #time {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+  }
+  .container #audiotime {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+  }
+  .container .buttons button {
+    cursor: pointer;
+    border-radius: 40%;
+    background: #87e7af;
+    padding: 8px;
+    border: none;
+    
+  }
+
+ /*volume*/
+  input{
+  -webkit-transform:rotate(-90deg) translate(75px, 280px); 
+  
+  }
+
+
+  .albumimg img {
+    width:  300px;
+    height:  300px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+
+
+  h3{
+    font-family: 'Roboto';
+    padding: 0%;
+    margin: 0%;
+    transform: translate(315px, -130px);
+  }
+
+
+  
+  /*animation*/
+
+.animation{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1; 
+}
+
+.animation img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.animation .object{
+  width: 350px;
+  height: auto;
+  
+}
+
+#a1{
+  left: 1%;
+  top: 20% ;
+}
+#a2{
+  left: 48%;
+  top: 40%;
+}
+#a3{
+  left: 10%;
+  top: 15%;
+}
+#a4{
+  left: 30%;
+  top: 5%;
+}
+#a5{
+  left: 45%;
+  top: 20%;
+}
+#a6{
+  left: 20%;
+  top: 18%;
+}
+#a{
+  left: 70%;
+  top: 30%;
+}
+#b{
+  left: 69%;
+  top: 30%;
+}
+#c{
+  left: 58%;
+  top: 52%;
+}
+#d{
+  left: 79%;
+  top: 80%;
+}
+
+
+
+
+
+
