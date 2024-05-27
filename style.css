@@ -82,7 +82,7 @@ body {
  /*volume*/
   input{
   -webkit-transform:rotate(-90deg) translate(75px, 280px); 
-  
+  cursor: pointer;
   }
 
 

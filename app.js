@@ -134,12 +134,8 @@ audio.addEventListener("ended", nextSong);
 
 
 volumeControl.addEventListener("input", function() {
-  let volume = parseFloat(this.value);
-  if (volume < 0) {
-    volume = 0;
-  } else if (volume > 1) {
-    volume = 1;
-  }
+  let volume = parseFloat(this.value)/parseFloat(this.max);
+  
 
   audio.volume = volume;
 });
@@ -153,7 +149,7 @@ volumeControl.value = defaultVolume;
 function loadAudio(song) {
     title.textContent = song;
     audio.src = `audio/${song}.mp3`;
-    album_cover.src = `images/${song}.jpg`; // nombre de la caratula
+    album_cover.src = `images/${song}.jpg`; 
   
     audio.addEventListener("loadedmetadata", () => {
       timeSong(audio.duration, audiotime);
