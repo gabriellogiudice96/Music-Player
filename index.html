@@ -10,43 +10,45 @@
 </head>
 <body>
 <header>  
+<div class="hero">
 
-  <div class="albumimg">
-    <img id="album_cover" src="img.animate/1.png" alt="Album Cover">
-  </div>
-  <div class="container">
-    <audio></audio>
-
-    <h1>Song</h1>
-
-    <div id="time">0:00</div>
-
-    <div class="buttons">
-      <button id="prev">
-        <i class="fas fa-backward"></i>
-      </button>
-      <button id="play">
-        <i class="fas fa-play"></i>
-      </button>
-      <button id="next">
-        <i class="fas fa-forward"></i>
-      </button>
+   <div class="albumimg">
+     <img id="album_cover" src="img.animate/1.png" alt="Album Cover">
     </div>
-
-    <div id="audiotime"></div>
-
-    <div class="progress_container">
-      <div id="progress"></div>
-    </div>
+         <div class="container">
+           <audio></audio>
+       
+           <h1>Song</h1>
+       
+           <div id="time">0:00</div>
+       
+           <div class="buttons">
+             <button id="prev">
+               <i class="fas fa-backward"></i>
+             </button>
+             <button id="play">
+               <i class="fas fa-play"></i>
+             </button>
+             <button id="next">
+               <i class="fas fa-forward"></i>
+              </button>
+            </div>
+            
+            <div id="audiotime"></div>
+            
+            <div class="progress_container">
+              <div id="progress"></div>
+            </div>
+          </div>
+          <h3>Volume</h3>
+          <input type="range" id="Volume" min="0" max="5" >
+        </header>
+        
 </div>
-<h3>Volume</h3>
-<input type="range" id="Volume" min="0" max="5" >
-</header>
-
-
-<div class="animation">
-  <img src="img.animate/1.png" class="object" data-value="-25" id="a1" alt="">
-  <img src="img.animate/2.png" class="object" data-value="10"  id="a2" alt="">
+        
+        <div class="animation">
+          <img src="img.animate/1.png" class="object" data-value="-25" id="a1" alt="">
+          <img src="img.animate/2.png" class="object" data-value="10"  id="a2" alt="">
   <img src="img.animate/3.png" class="object" data-value="-15"  id="a3" alt="">
   <img src="img.animate/4.png" class="object" data-value="30"  id="a4" alt="">
   <img src="img.animate/5.png" class="object" data-value="-10" id="a5" alt="">
