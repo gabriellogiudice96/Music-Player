@@ -5,7 +5,7 @@ body {
   background:  #02b0f5 ;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-
+  overflow-x: hidden;
   position: relative;
 }
 
@@ -80,6 +80,11 @@ header {
 .container #time {
   top: 40%;
   left: 10%;
+}
+
+.container #audiotime{
+  top: 40%;
+  left: 85%;
 }
 
 .container #progress {
